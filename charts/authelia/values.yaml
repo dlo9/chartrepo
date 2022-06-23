@@ -71,6 +71,9 @@ rbac:
 ## Authelia must be served from the domain or a subdomain under it.
 domain: example.com
 
+# Cluster domain name
+clusterDomain: cluster.local
+
 service:
   annotations: {}
   # annotations:
